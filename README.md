@@ -1,1 +1,1 @@
-# epi_model
+This repository contains codes for simple SIR model (no births, no deaths). It has a compartmental model (both in python and R) and one for SIR simulation. The files will do some basic plots for the number of people infected, recovered as well. The SIR simulations will generate epidemic curves.
