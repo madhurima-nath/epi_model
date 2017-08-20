@@ -2,7 +2,7 @@
 """
 Created on Fri Aug 18 15:52:30 2017
 
-@author: nmaddy
+@author: madhurima
 """
 
 import networkx as nx
