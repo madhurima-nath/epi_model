@@ -9,7 +9,7 @@ The simple SIR compartmental model can be expressed as the following set of equa
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\frac{dR(t)}{dt}&space;=&space;\gamma&space;I(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{dR(t)}{dt}&space;=&space;\gamma&space;I(t)" title="\frac{dR(t)}{dt} = \gamma I(t)" /></a>
 
-This model was proposed by Kermack and McKemndrick. The three variables - ** _S(t), I(t)_ ** and ** _R(t)_ ** - represent the number of people in each compartment, ** _susceptibles, infected_ ** and ** _recovered_ **, at a particular time. Also, the total population size **_N_** remains constant. It follows that 
+This model was proposed by Kermack and McKemndrick. The three variables - **_S(t), I(t)_** and **_R(t)_** - represent the number of people in each compartment, **_susceptibles, infected_** and **_recovered_**, at a particular time. Also, the total population size **_N_** remains constant. It follows that 
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" target="_blank"><img src="http://latex.codecogs.com/gif.latex?S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" title="S(t) + I(t) + R(t) = \text{constant} = N" /></a>
 
@@ -18,4 +18,4 @@ Further, the dynamics depends on the ratio
 which is called the **_basic reproduction ratio_**.
 
 ## References
-1. Contributions to the mathematical theory of epidemics--I. 1927, Kermack WO, McKendrick AG. [link text itself]: https://www.ncbi.nlm.nih.gov/pubmed/2059741
+1. Contributions to the mathematical theory of epidemics--I. 1927, Kermack WO, McKendrick AG. https://www.ncbi.nlm.nih.gov/pubmed/2059741
