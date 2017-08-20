@@ -20,4 +20,4 @@ Further, the dynamics depends on the ratio
 which is called the **_basic reproduction ratio_**.
 
 ## References
-1. Contributions to the mathematical theory of epidemics--I. 1927, Kermack WO, McKendrick AG. https://www.ncbi.nlm.nih.gov/pubmed/2059741
+1. Contributions to the mathematical theory of epidemics--I. 1927, Kermack WO, McKendrick AG. 
