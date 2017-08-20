@@ -1,4 +1,8 @@
-#!/usr/bin/env python
+"""
+Created on Mon May 16 15:23:28 2016
+
+@author: madhurima
+"""
 
 import scipy.integrate as spi
 import numpy as np
