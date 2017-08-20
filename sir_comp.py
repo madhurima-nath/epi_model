@@ -63,6 +63,8 @@ pl.ylabel('Fraction of People', **axis_font)
 pl.xticks(**axis_tick_font)
 pl.yticks(**axis_tick_font)
 
+pl.savefig('C:/Users/nmaddy/Documents/git/epi_model/sir.png')
+
 pl.show()
 
 
