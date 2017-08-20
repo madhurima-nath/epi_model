@@ -83,6 +83,12 @@ st = [numpy.std([x[i] for x in atr if len(x) > i]) for i in range(len(max(atr, k
 ## standard deviation of fraction of infected nodes after N simulations
 
 
+
+plt.figure(figsize=(10,10))   ## define figure size
+
+axis_font = {'size':'35', 'color':'black'}
+axis_tick_font = {'size':'25', 'color':'black'}
+
 for i in range(len(atr)):
     plt.plot(atr[i], color = 'grey')
 ## plot the epidemic curve for each simulation
@@ -92,6 +98,11 @@ plt.errorbar(range(len(atr_mean)), atr_mean, yerr = st/numpy.sqrt(len(max(atr)))
              fmt='-o', markeredgewidth=2, capsize=5, elinewidth=2)
 ## plot the mean epidemic curve after N simulations with error bars representing the probable error in estimating the mean
 
-plt.xlabel('time')
-plt.ylabel('fraction of infected')
+plt.xlabel('time', **axis_font)
+plt.ylabel('fraction infected', **axis_font)
+plt.xticks(**axis_tick_font)
+plt.yticks(**axis_tick_font)
+
+plt.savefig('sirsim.png')
+plt.show()
 
