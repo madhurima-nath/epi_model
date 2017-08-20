@@ -50,12 +50,19 @@ print(result)
 #Ploting
 pl.figure(figsize=(10,10))   ## define figure size
 
-pl.plot(result[:,0], '-b', label='Susceptibles')
-pl.plot(result[:,1], '-r', label='Infectious')
-pl.plot(result[:,2], '-g', label='Recovered')
-pl.legend(loc=0)
-pl.xlabel('Time')
-pl.ylabel('Fraction of People')
+axis_font = {'size':'35', 'color':'black'}
+axis_tick_font = {'size':'25', 'color':'black'}
+
+pl.plot(result[:,0], '-b', label='Susceptibles', lw = 3)
+pl.plot(result[:,1], '-r', label='Infectious', lw = 3)
+pl.plot(result[:,2], '-g', label='Recovered', lw = 3)
+pl.legend(loc=0, fontsize = 25)
+pl.xlabel('Time', **axis_font)
+pl.ylabel('Fraction of People', **axis_font)
+
+pl.xticks(**axis_tick_font)
+pl.yticks(**axis_tick_font)
+
 pl.show()
 
 
