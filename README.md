@@ -14,7 +14,9 @@ This model was proposed by Kermack and McKemndrick. The three variables - **_S(t
 <a href="http://www.codecogs.com/eqnedit.php?latex=S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" target="_blank"><img src="http://latex.codecogs.com/gif.latex?S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" title="S(t) + I(t) + R(t) = \text{constant} = N" /></a>
 
 Further, the dynamics depends on the ratio
+
 <a href="http://www.codecogs.com/eqnedit.php?latex=R_0&space;=&space;\frac{\beta}{\gamma}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?R_0&space;=&space;\frac{\beta}{\gamma}" title="R_0 = \frac{\beta}{\gamma}" /></a>
+
 which is called the **_basic reproduction ratio_**.
 
 ## References
