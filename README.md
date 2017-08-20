@@ -3,14 +3,18 @@ This repository contains codes for simple SIR model (no births, no deaths). It h
 
 The simple SIR compartmental model can be expressed as the following set of equations:
 
-![eqn1] (https://www.latex4technics.com/l4ttemp/brx713.png?1503242545197)
-![eqn2] (https://www.latex4technics.com/l4ttemp/brx713.png?1503242580770)
-![eqn3] (https://www.latex4technics.com/l4ttemp/brx713.png?1503242608479)
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{dS(t)}{dt}&space;=&space;-&space;\frac{\beta&space;I(t)&space;S(t)}{N}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{dS(t)}{dt}&space;=&space;-&space;\frac{\beta&space;I(t)&space;S(t)}{N}" title="\frac{dS(t)}{dt} = - \frac{\beta I(t) S(t)}{N}" /></a>
 
-This model was proposed by Kermack and McKemndrick. The three variables - ** _S(t), I(t)_ ** and ** _R(t)_ ** - represent the number of people in each compartment, ** _susceptibles, infected_ ** and ** _recovered_ **, at a particular time. Also, the total population size **_N_** remains constant. It follows that ![eqn4] (https://www.latex4technics.com/l4ttemp/brx713.png?1503242207497)
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{dI(t)}{dt}&space;=&space;\frac{\beta&space;I(t)&space;S(t)}{N}-\gamma&space;I(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{dI(t)}{dt}&space;=&space;\frac{\beta&space;I(t)&space;S(t)}{N}-\gamma&space;I(t)" title="\frac{dI(t)}{dt} = \frac{\beta I(t) S(t)}{N}-\gamma I(t)" /></a>
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{dR(t)}{dt}&space;=&space;\gamma&space;I(t)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{dR(t)}{dt}&space;=&space;\gamma&space;I(t)" title="\frac{dR(t)}{dt} = \gamma I(t)" /></a>
+
+This model was proposed by Kermack and McKemndrick. The three variables - ** _S(t), I(t)_ ** and ** _R(t)_ ** - represent the number of people in each compartment, ** _susceptibles, infected_ ** and ** _recovered_ **, at a particular time. Also, the total population size **_N_** remains constant. It follows that 
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" target="_blank"><img src="http://latex.codecogs.com/gif.latex?S(t)&space;&plus;&space;I(t)&space;&plus;&space;R(t)&space;=&space;\text{constant}&space;=&space;N" title="S(t) + I(t) + R(t) = \text{constant} = N" /></a>
 
 Further, the dynamics depends on the ratio
-![eqn5] (https://www.latex4technics.com/l4ttemp/brx713.png?1503242292403) 
+<a href="http://www.codecogs.com/eqnedit.php?latex=R_0&space;=&space;\frac{\beta}{\gamma}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?R_0&space;=&space;\frac{\beta}{\gamma}" title="R_0 = \frac{\beta}{\gamma}" /></a>
 which is called the **_basic reproduction ratio_**.
 
 ## References
