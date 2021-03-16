@@ -24,4 +24,5 @@ which is called the **_basic reproduction ratio_**.
 
 
 
-[This folder] contains similar analysis in a Jupyter notebook.
+[This folder](https://github.com/mnathvt/epi_model/tree/master/model_comparison) contains comparison of different network models for
+epidemic outbearks on a Jupyter notebook.
